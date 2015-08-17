@@ -1,5 +1,5 @@
 # MyPlaces
-Android application that shows you places of interest near by
+Android application that shows you places of interest near by.
 
 -The search commits only in English (unless you search by name[can be changed on settings]) for example if you search coffee you will get all the coffee places near by.
 
