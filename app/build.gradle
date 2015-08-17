@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        LocationProject {
+            keyAlias 'com.example.danie_000.locationproject'
+            keyPassword 'A4DZ358W'
+            storeFile file('C:/Users/danie_000/Desktop/android.jks')
+            storePassword 'A4DZ358W'
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.example.danie_000.locationproject"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.google.android.gms:play-services:7.3.0'
+}

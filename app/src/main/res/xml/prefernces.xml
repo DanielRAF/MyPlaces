@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="type"
+        android:title="Search places by"
+        android:entries="@array/type"
+        android:entryValues="@array/type_values"
+        />
+
+    <ListPreference
+        android:key="mk"
+        android:title="@string/show_distance_as"
+        android:entries="@array/mk"
+        android:entryValues="@array/mk_values"
+        />
+
+    <ListPreference
+        android:key="radius"
+        android:title="@string/radius"
+        />
+
+    <Preference
+        android:key="delete"
+        android:title="@string/delete_all_favorites"
+        />
+
+    <Preference
+        android:key="q"
+        android:title="@string/full_search_example"
+        />
+
+</PreferenceScreen>

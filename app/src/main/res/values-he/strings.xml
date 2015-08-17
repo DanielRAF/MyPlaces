@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+
+    <string-array name="mk">
+        <item>ק"מ</item>
+        <item>מייל</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>חיפוש-מלא</item>
+        <item>חיפוש מלא (ללא מיקום)</item>
+        <item>שם</item>
+    </string-array>
+
+    <string-array name="mk_values">
+        <item>km</item>
+        <item>miles</item>
+    </string-array>
+
+    <string-array name="type_values">
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="app_name">My Places</string>
+    <string name="AllNearBy">כל המקומות לידי</string>
+    <string name="NearBy">מקומות לידי</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="address">כתובת</string>
+    <string name="favorites">מועדפים</string>
+    <string name="place_name">שם המקום</string>
+    <string name="search">חיפוש</string>
+    <string name="title_activity_main_fragment">הפרגמנט הראשי</string>
+    <string name="title_activity_map">מפה</string>
+    <string name="title_activity_settings">פעילות ההגדרות</string>
+    <string name="title_place_detail">פרטי המקום</string>
+    <string name="faviorites_dialog">מה ברצונך לעשות?</string>
+    <string name="favorites_dialog_message">לשמור במועדפים או לשתף</string>
+    <string name="share">שתף</string>
+    <string name="Save">שמור</string>
+    <string name="share_massage">איך ברצונך לשמור?</string>
+    <string name="share_user_message">אני משתף את המקום הזה איתך!</string>
+    <string name="cannot_open_map">פתיחת מפה נכשלה, אין חיבור לאינטרנט</string>
+    <string name="connected">מטען התחבר</string>
+    <string name="connection_failed_massage">אין חיבור לאינטרנט, מראה את תוצאות החיפוש האחרון</string>
+    <string name="delete">מחק</string>
+    <string name="delete_all_favorites">מחק את כל המועדפים</string>
+    <string name="delete_all_massage">האם אתה בטוח שברצונך למחוק את כל המקומות מהמועדפים?</string>
+    <string name="disconnected">מטען התנתק</string>
+    <string name="fav_dialog">למחוק ממועדפים או לשתף</string>
+    <string name="full_search">חיפוש-מלא</string>
+    <string name="full_search_example">דוגמאות חיפוש מלא</string>
+    <string name="full_search_wl">חיפוש מלא (ללא מיקום)</string>
+    <string name="google_maps_key">AIzaSyDmCb_LPsrDtiCezoVRagEE2ybPLICjowU</string>
+    <string name="gps_avalilable_message">gps זמין, חפש עכשיו בשביל מיקום מדויק יותר</string>
+    <string name="key_over_dialog_massage">חלה בעיה בהתחברות לשרת, בבקשה בדוק אם נגמרו הבקשות מהשרת ו\או חזור עוד 24 שעות</string>
+    <string name="key_over_dialog_title">מצטערים</string>
+    <string name="km">ק"מ</string>
+    <string name="meters">מטרים</string>
+    <string name="miles">מיילים</string>
+    <string name="name">שם</string>
+    <string name="no">לא</string>
+    <string name="no_providers_message">מיקום לא זמין, בבקשה תפעיל את המיקום לאחר מכן הפעל מחדש ת האפליקציה</string>
+    <string name="no_results">לא נמצאו תוצאות!, נסה שוב...</string>
+    <string name="ok">אישור</string>
+    <string name="radius">רדיוס</string>
+    <string name="save">שמור</string>
+    <string name="show_distance_as">הראה מרחק עם</string>
+    <string name="wating_for_location">מחכה למיקום, בקשה נסה שוב עוד כמה רגעים</string>
+    <string name="yards">יארדים</string>
+    <string name="yes">כן</string>
+</resources>

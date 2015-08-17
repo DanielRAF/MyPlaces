@@ -1,0 +1,15 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ff313131">
+<fragment android:id="@+id/place_list"
+    android:configChanges="orientation|screenSize"
+    android:name="com.example.danie_000.locationproject.view.MainFragment"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+    tools:context=".PlaceListActivity" >
+</fragment>
+
+</LinearLayout>
